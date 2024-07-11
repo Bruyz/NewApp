@@ -1,6 +1,6 @@
 import { Text, TouchableOpacity, View } from "react-native";
-import { styles } from "./styles"
-import { MenuStackTypes } from "../../MenuStack.navigation";
+import { styles } from "./styles";
+import { MenuStackTypes } from "../../navigations/MenuStack.navigation";
 
 export function Slide1({ navigation }: MenuStackTypes) {
     return (
