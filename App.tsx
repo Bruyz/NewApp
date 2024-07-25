@@ -1,8 +1,11 @@
-import 'react-native-gesture-handler';
-import Navigation from './src/navigations';
+import { StatusBar } from 'expo-status-bar';
+import  Navigation  from './src/navigations';
 
 export default function App() {
   return (
-    <Navigation />
+    <>
+        <Navigation />
+        <StatusBar style="auto" />
+    </>
   );
 }
